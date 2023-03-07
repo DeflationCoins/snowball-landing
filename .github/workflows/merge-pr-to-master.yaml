@@ -37,4 +37,4 @@ jobs:
           fields: repo,message,author,eventName,ref,workflow
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-    needs: docker-build-and-push-image
+    needs: upload-contents-to-s3
