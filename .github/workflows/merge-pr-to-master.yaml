@@ -3,7 +3,7 @@ name: Merge PR to 'master' branch
 on:
   push:
     branches:
-      - feature/cicd-pipeline
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
