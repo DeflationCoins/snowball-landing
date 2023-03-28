@@ -28,6 +28,13 @@ The website is hosted as a static website on AWS S3 with CloudFlare distribution
 ## Automatic deployments
 There is a Github Action configured to upload the contents of the repository to S3.
 
+This will reflect the changes automatically on the website, which is hosted on AWS S3 with a CloudFront distribution for cache, and Route 53 for managing the DNS record.
+
+## Status Page
+The website uptime monitor is hosted using `Github Pages` In the [Deflation Coins Upptime](https://github.com/DeflationCoins/upptime) repository.
+
+Check out the [Live Status](https://deflationcoins.github.io/upptime)
+
 ## Troubleshooting
 If you encounter any issues with this script, here are some troubleshooting tips:
 
