@@ -9,5 +9,6 @@ PREFIX=""
 aws s3 cp . s3://${BUCKET_NAME}/${PREFIX} --recursive \
     --exclude .DS_Store \
     --exclude '.git/*' \
+    --exclude 'docs/*' \
     --exclude upload_to_s3.sh \
     --exclude README.md \

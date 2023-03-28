@@ -21,6 +21,13 @@ To use this script, follow these steps:
 
 The script will recursively upload all contents of the current directory to the specified S3 bucket.
 
+## Hosting
+The website is hosted as a static website on AWS S3 with CloudFlare distribution as a CDN.
+![architecture](docs/img/architecture-iamsnowball.drawio.png)
+
+## Automatic deployments
+There is a Github Action configured to upload the contents of the repository to S3.
+
 ## Troubleshooting
 If you encounter any issues with this script, here are some troubleshooting tips:
 
